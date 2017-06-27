@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--TODO (5) Add a layout for an item in the list called forecast_list_item.xml-->
+
+<!--TODO (6) Make the root of the layout a vertical LinearLayout-->
+<!--TODO (7) Set the width of the LinearLayout to match_parent and the height to wrap_content-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/tv_weather_data"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dadada"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+
+
+</LinearLayout>
+
